@@ -1,0 +1,33 @@
+{
+  "name": "Guybrush",
+  "version": "0.0.1",
+  "description": "I want to be a mighty theme developer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jackmachin/Guybrush.git"
+  },
+  "keywords": [
+    "Pirate"
+  ],
+  "author": "Jack Machin",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/jackmachin/guybrush/issues"
+  },
+  "homepage": "https://github.com/jackmachin/guybrush",
+  "devDependencies": {
+    "gulp": "^3.8.6",
+    "gulp-concat": "^2.3.4",
+    "gulp-imagemin": "^1.0.1",
+    "gulp-jshint": "^1.8.4",
+    "gulp-minify-css": "^0.3.7",
+    "gulp-plumber": "^0.6.3",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^0.7.3",
+    "gulp-uglify": "^0.3.2"
+  }
+}

@@ -1,0 +1,94 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Layout Stylesheet
+******************************************************************/
+.wrapper {
+	@include clearfix;
+	max-width: $break-wide;
+	min-width: ($break-mobile - 20px);
+	margin: 0 auto;
+}
+
+.container {
+	@include clearfix;
+	width: 100%;
+	margin: 10px 0;
+}
+
+#container {}
+
+  .header {}
+  
+    #inner-header {}
+    
+    .logo-container {
+      @include grid (4);
+      @include break(tablet, 6); 
+      @include break(mobile, 12);
+    }
+    
+    #sidebar-header {
+      @include grid (4, $push:4);
+      @include break(tablet, 6); 
+      @include break(mobile, 12);
+    }
+    
+  .nav {}
+
+  #content {}
+  
+    #inner-content {}
+    
+      .full {
+        @include grid (12);
+      }
+
+      #main, .main {
+        @include grid(9);
+        @include break(tablet, 12); 
+        @include break(mobile, 12);
+      }
+      
+      .half {
+        @include grid (6);
+        @include break(mobile, 12);
+      }
+      
+      .tile {
+        @include grid (4);
+        @include break(tablet, 6);
+        @include break(mobile, 12);
+      } 
+      
+      .third  {
+        @include grid (4);
+        @include break(mobile, 12);
+      }
+
+       .sidebar {
+        @include grid(3);
+        @include break(tablet, 12); 
+        @include break(mobile, 12);
+       }
+       
+       .target-cover {
+        @include grid(3);
+       }
+       
+       .target-detail {
+        @include grid(9);
+       }
+    
+  .footer {}
+  
+    #sidebar-footer {
+      @include grid (12);
+    }
+    
+    .footer-widget {
+      @include grid (4);
+      @include break(tablet, 6); 
+      @include break(mobile, 12);
+    }
