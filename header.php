@@ -48,7 +48,7 @@
             <?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
             <h1 id="logo">
               <a href="<?php echo home_url(); ?>" rel="nofollow">
-                <img width="300"  height="60" src="<?php echo get_template_directory_uri(); ?>/library/images/logo.jpg" id="logo-image" alt="<?php bloginfo ('name');?> - <?php bloginfo('description'); ?>" title="<?php bloginfo('name'); ?>">
+                <img width="480"  height="96" src="<?php echo get_template_directory_uri(); ?>/library/images/logo.jpg" id="logo-image" alt="<?php bloginfo ('name');?> - <?php bloginfo('description'); ?>" title="<?php bloginfo('name'); ?>">
               </a>
             </h1>
 
