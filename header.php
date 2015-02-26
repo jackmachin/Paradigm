@@ -41,15 +41,16 @@
 
 	<body <?php body_class(); ?>>
 
-			<header class="header" role="banner">
+			<header class="header  wrapper" role="banner">
 
-				<div id="inner-header" class="wrapper">
+				<div id="inner-header" class="container">
 
             <?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
-            <h1 id="logo"><a href="<?php echo home_url(); ?>" rel="nofollow"><img width="300"  height="60" src="<?php echo get_template_directory_uri(); ?>/library/images/logo.jpg" id="logo-image" alt="<?php bloginfo ('name');?> - <?php bloginfo('description'); ?>" title="<?php bloginfo('name'); ?>"></a></h1>
-
-            <?php // if you'd like to use the site description you can un-comment it below ?>
-            <?php // bloginfo('description'); ?>
+            <h1 id="logo">
+              <a href="<?php echo home_url(); ?>" rel="nofollow">
+                <img width="300"  height="60" src="<?php echo get_template_directory_uri(); ?>/library/images/logo.jpg" id="logo-image" alt="<?php bloginfo ('name');?> - <?php bloginfo('description'); ?>" title="<?php bloginfo('name'); ?>">
+              </a>
+            </h1>
 
             <?php get_template_part ( 'partials/navigation') ?>
         
