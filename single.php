@@ -20,11 +20,11 @@
                 
                 <?php get_template_part ('partials/article-header');?>
 
-                <section class="entry-content" itemprop="articleBody">
+                <div class="entry-content" itemprop="articleBody">
                   <?php
                     the_content();
                   ?>
-                </section> <?php // end article section ?>
+                </div <?php // end article section ?>
 
                 <footer class="article-footer">
 
