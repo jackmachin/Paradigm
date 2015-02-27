@@ -1,6 +1,6 @@
 /******************************************************************
-Site Name:
-Author:
+Site Name: Paradigm
+Author: Jack Mahcin
 
 Stylesheet: Typography
 
@@ -39,38 +39,6 @@ FONT FACE (IN YOUR FACE)
       font-style: normal;
   }
 */
-@font-face {
-  font-family: 'ITCAvantGardeStd-Md';
-  src: url("/wp-content/themes/paradigm/library/fonts/280325_2_0.eot");
-  src: url("/wp-content/themes/paradigm/library/fonts/280325_2_0.eot?#iefix") format("embedded-opentype"), 
-        url("/wp-content/themes/paradigm/library/fonts/280325_2_0.woff") format("woff"), 
-        url("/wp-content/themes/paradigm/library/fonts/280325_2_0.ttf") format("truetype"), 
-        url("/wp-content/themes/paradigm/library/fonts/280325_2_0.svg#font-name") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'ITCAvantGardeStd-Demi';
-  src: url("/wp-content/themes/paradigm/library/fonts/280325_0_0.eot");
-  src: url("/wp-content/themes/paradigm/library/fonts/280325_0_0.eot?#iefix") format("embedded-opentype"), 
-        url("/wp-content/themes/paradigm/library/fonts/280325_0_0.woff") format("woff"), 
-        url("/wp-content/themes/paradigm/library/fonts/280325_0_0.ttf") format("truetype"), 
-        url("/wp-content/themes/paradigm/library/fonts/280325_0_0.svg#font-name") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'ITCAvantGardeStd-Bold';
-  src: url("/wp-content/themes/paradigm/library/fonts/280325_1_0.eot");
-  src: url("/wp-content/themes/paradigm/library/fonts/280325_1_0.eot?#iefix") format("embedded-opentype"), 
-        url("/wp-content/themes/paradigm/library/fonts/280325_1_0.woff") format("woff"), 
-        url("/wp-content/themes/paradigm/library/fonts/280325_1_0.ttf") format("truetype"), 
-        url("/wp-content/themes/paradigm/library/fonts/280325_1_0.svg#font-name") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
 
 /*
 The following is based of Typebase:

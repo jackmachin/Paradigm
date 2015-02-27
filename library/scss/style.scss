@@ -1,7 +1,5 @@
-@import url("//hello.myfonts.net/count/280325");
-
 /******************************************************************
-Site Name: Guybrush
+Site Name: Paradigm
 Author: Jack Machin
 
 Stylesheet: Main Stylesheet
@@ -38,8 +36,8 @@ the whole project.
 // import mixins
 @import "partials/mixins";
 
-// the grid
-//@import "partials/grid";
+// globals
+@import "partials/globals";
 
 // layout
 //@import "partials/layout";

@@ -1,6 +1,6 @@
 /******************************************************************
-Site Name:
-Author:
+Site Name: Paradigm
+Author: Jack Machin
 
 Stylesheet: Base Mobile Stylesheet
 
@@ -66,15 +66,6 @@ style a page via class
 	.paged-1 {}                     /* individual paged (i.e. body.paged-3) */
 
 /*********************
-LAYOUT & GRID STYLES
-*********************/
-
-.wrap {
-	width: 96%;
-	margin: 0 auto;
-}
-
-/*********************
 LINK STYLES
 *********************/
 
@@ -84,8 +75,6 @@ a, a:visited {
 
 	/* on hover */
 	&:hover, &:focus {
-		color: $link-hover;
-    text-decoration: underline;
 	}
 
 	/* on click */
@@ -102,15 +91,6 @@ a, a:visited {
 		*/
 		-webkit-tap-highlight-color : rgba( 0, 0, 0, 0.3 );
 	}
-}
-
-a.btn-link, a.btn-link:visited {
-  color: $white; 
-  font-size: 1.3em;
-  
-  &:hover, &:focus {
-    color: darken ($white, 9%);
-  }
 }
 
 /******************************************************************
