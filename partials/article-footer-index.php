@@ -1,6 +1,4 @@
-<footer class="article-footer cf">
-  
-  <?php get_template_part ('partials/comment-count'); ?>
+<footer class="article-footer">
 
   <?php printf( '<p class="footer-category">' . __('Filed under', 'bonestheme' ) . ': %1$s</p>' , get_the_category_list(', ') ); ?>
 
