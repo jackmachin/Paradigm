@@ -12,6 +12,7 @@
  * For more info: http://codex.wordpress.org/Page_Templates
 */
 ?>
+<?php the_header ();?>
 
 <div id="content" class="wrapper">
 
