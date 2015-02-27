@@ -470,6 +470,13 @@ For more info on functions, go here:
 http://sass-lang.com/documentation/Sass/Script/Functions.html
 
 ******************************************************************/
+img {
+  max-width: 100%;
+  height: auto; }
+
+* + * {
+  margin-top: 1.5em; }
+
 /*********************
 COLOR FUNCTIONS
 These are helpful when you're working
@@ -596,10 +603,6 @@ body {
   color: #000;
   background-color: #fff;
   -webkit-font-smoothing: antialiased; }
-
-img {
-  max-width: 100%;
-  height: auto; }
 
 /********************
 WORDPRESS BODY CLASSES
