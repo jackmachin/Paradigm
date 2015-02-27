@@ -22,7 +22,7 @@ $alert-red:         #fbe3e4;
 $alert-green:       #e6efc2;
 $alert-blue:        #d5edf8;
 
-$black:             #323944;
+$black:             #000;
 $white:             #fff;
 
 $light-gray:        #f8f9fa;
@@ -34,12 +34,16 @@ $tan:               #eceee5;
 
 $green:             #7dd667;
 
+$yellow:        #f1f1d9;
+
 $bones-pink:        #f01d4f;
 $blue:              #2980b9;
 
 $para-red: #D2232A;
 $dark-red: darken($para-red, 20%);
 $light-red: lighten($para-red, 10%);
+
+
 
 $link-color:        $para-red;
 $link-hover:        darken($link-color, 9%);
