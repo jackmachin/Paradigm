@@ -7,11 +7,11 @@
 						<div id="main" role="main">
             
               <?php 
-                  
+
                 if ( function_exists('yoast_breadcrumb') ) {
-                  yoast_breadcrumb('<div id="breadcrumbs">','</div>');
+                yoast_breadcrumb('<div id="breadcrumbs">','</div>');
                 } 
-                  
+
               ?>
 
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
