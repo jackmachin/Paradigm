@@ -20,7 +20,7 @@
 
                 <?php get_template_part ('partials/article-header' , 'index'); ?>
 
-								<div class="entry-content cf">
+								<div class="entry-content">
 									<?php the_content(); ?>
 								</div>
 
