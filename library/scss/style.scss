@@ -27,16 +27,16 @@ the whole project.
 @import "partials/normalize";
 
 // Sass variables
-//@import "partials/variables";
+@import "partials/variables";
 
 // typography
-//@import "partials/typography";
+@import "partials/typography";
 
 // Sass functions
-//@import "partials/functions";
+@import "partials/functions";
 
 // import mixins
-//@import "partials/mixins";
+@import "partials/mixins";
 
 // the grid
 //@import "partials/grid";
@@ -75,7 +75,7 @@ the other stylesheets. Remember, keep it light: Speed is Important.
 *********************/
 
 // styles in base.scss
-//@import "breakpoints/base";
+@import "breakpoints/base";
 
 /*********************
 LARGER MOBILE DEVICES
