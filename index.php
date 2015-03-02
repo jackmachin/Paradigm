@@ -1,51 +1,49 @@
 <?php get_header(); ?>
 
-			<div id="content" class="wrapper">
+    <div id="content" class="wrapper">
 
-				<div id="inner-content" class="container">
+        <div id="inner-content" class="container">
 
-						<div id="main" role="main">
+            <div id="main" role="main">
             
               <?php 
 
                 if ( function_exists('yoast_breadcrumb') ) {
-                yoast_breadcrumb('<div id="breadcrumbs">','</div>');
+                    yoast_breadcrumb('<div id="breadcrumbs">','</div>');
                 } 
 
               ?>
 
-							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+                <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-							<article id="post-<?php the_ID(); ?>" <?php post_class(); ?> role="article">
+                    <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> role="article">
 
-                <?php get_template_part ('partials/article-header' , 'index'); ?>
+                        <?php get_template_part ('partials/article-header' , 'index'); ?>
 
-								<div class="entry-content">
-									<?php the_content(); ?>
-								</div>
+                            <div class="entry-content">
+                                <?php the_content(); ?>
+                            </div>
 
-                <?php get_template_part ( 'partials/article-footer' , 'index' ) ; ?>
+                        <?php get_template_part ( 'partials/article-footer' , 'index' ) ; ?>
 
-							</article>
+                    </article>
 
-							<?php endwhile; ?>
+                <?php endwhile; ?>
 
-									<?php bones_page_navi(); ?>
+                    <?php bones_page_navi(); ?>
 
-							<?php else : ?>
+                <?php else : ?>
 
-                <?php get_template_part ('partials/no-post-found');?>
+                    <?php get_template_part ('partials/no-post-found');?>
 
-							<?php endif; ?>
+                <?php endif; ?>
 
+            </div>
 
-						</div>
+            <?php get_sidebar(); ?>
 
-					<?php get_sidebar(); ?>
+        </div>
 
-				</div>
-
-			</div>
-
+    </div>
 
 <?php get_footer(); ?>
