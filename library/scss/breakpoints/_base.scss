@@ -970,6 +970,7 @@ FOOTER STYLES
         background-color: $para-red;
         list-style-type: none;
         padding-left: 0;
+        text-align: center;
 
         li {
             display: inline-block;
@@ -978,6 +979,7 @@ FOOTER STYLES
 
             a {
                 color: $white;
+                padding: 0 .5em;
             }
 
         }
