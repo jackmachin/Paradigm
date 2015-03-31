@@ -1140,9 +1140,11 @@ FOOTER STYLES
 .footer-nav {
   background-color: #D2232A;
   list-style-type: none;
-  margin-left: 0; }
-  .footer-nav li a {
-    color: #fff; }
+  padding-left: 0; }
+  .footer-nav li {
+    display: inline-block; }
+    .footer-nav li a {
+      color: #fff; }
 
 /* end .footer-nav */
 .copyright {
