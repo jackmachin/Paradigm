@@ -1142,7 +1142,8 @@ FOOTER STYLES
   list-style-type: none;
   padding: 1.5em; }
   .footer-nav li {
-    display: inline-block; }
+    display: inline-block;
+    margin-top: 0; }
     .footer-nav li a {
       color: #fff; }
 
