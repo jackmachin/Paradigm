@@ -1145,7 +1145,8 @@ FOOTER STYLES
     display: inline-block;
     margin-top: 0; }
     .footer-nav li a {
-      color: #fff; }
+      color: #fff;
+      padding: 0.75em; }
 
 /* end .footer-nav */
 .copyright {
