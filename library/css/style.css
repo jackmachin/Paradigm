@@ -736,18 +736,6 @@ and more scalable.
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-.hentry {
-  background-color: #eaedf2;
-  border-radius: 3px;
-  margin-bottom: 1.5em;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28); }
-  .hentry header {
-    padding: 1.5em 1.5em 0; }
-  .hentry footer {
-    padding: 1.5em; }
-    .hentry footer p {
-      margin: 0; }
-
 /* end .hentry */
 .single-title, .page-title, .entry-title {
   margin: 0; }
