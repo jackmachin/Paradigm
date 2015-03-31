@@ -238,9 +238,9 @@ POSTS & CONTENT STYLES
 #content {
 }
 		.hentry {
+            padding: 1.5em 1.5em 0;
 
 			header {
-                padding: 1.5em 1.5em 0;
 
 			}
 
@@ -288,8 +288,6 @@ POSTS & CONTENT STYLES
 
 		/* entry content */
 		.entry-content {
-			padding: 1.5em 1.5em 0;
-
 			p {
 				margin: 0 0 1.5em;
 			}
