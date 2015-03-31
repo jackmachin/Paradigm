@@ -165,19 +165,12 @@ easily write one group of styles for
 the navs on the site so our css is cleaner
 and more scalable.
 */
-nav {
 
-}
 .nav {
 
 	li {
 
 		a {
-			display: block;
-			color: $white;
-			text-decoration: none;
-			padding: 0.75em;
-      font-family: $itc;
 
 			/*
 			remember this is for mobile ONLY, so there's no need
@@ -207,9 +200,6 @@ nav {
 			li {
 
 				a {
-					padding-left: 30px;
-          font-size: .9em;
-          font-family: $lato;
 
 					&:hover,
 					&:focus {}
@@ -234,7 +224,6 @@ nav {
 	li.current_page_ancestor {
 
 		a {
-      background-color: $light-red;
     }
 
 	}  /* end current highlighters */

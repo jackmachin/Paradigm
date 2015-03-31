@@ -722,23 +722,12 @@ and more scalable.
 		http://www.alistapart.com/articles/organizing-mobile/
 		*/ }
     .nav li a {
-      display: block;
-      color: #fff;
-      text-decoration: none;
-      padding: 0.75em;
-      font-family: 'ITCAvantGardeStd-Md', "Helvetica Neue", Helvetica, Arial, sans-serif;
       /*
 			remember this is for mobile ONLY, so there's no need
 			to even declare hover styles here, you can do it in
 			the style.scss file where it's relevant. We want to
 			keep this file as small as possible!
 			*/ }
-    .nav li ul.sub-menu li a, .nav li ul.children li a {
-      padding-left: 30px;
-      font-size: 0.9em;
-      font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif; }
-  .nav li.current-menu-item a, .nav li.current_page_item a, .nav li.current_page_ancestor a {
-    background-color: #e0484f; }
 
 /* end .nav */
 /*********************
