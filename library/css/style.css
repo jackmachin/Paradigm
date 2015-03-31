@@ -560,6 +560,9 @@ img {
 * + * {
   margin-top: 0.75em; }
 
+#wpadminbar {
+  margin: 0; }
+
 /*********************
 IMPORTING MODULES
 Modules are reusable blocks or elements we use throughout the project.

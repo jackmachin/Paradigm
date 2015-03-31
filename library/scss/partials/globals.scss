@@ -9,12 +9,17 @@ Here's stuff that's going on NO MATTER WHAT.
 
 // Hacky responsive images
 img {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 
 // Lobotomised Owl 
 * + * {
- margin-top: .75em;
+    margin-top: .75em;
 }
+
+    // Lobotomised fixes
+    #wpadminbar {
+        margin:0;
+    }
