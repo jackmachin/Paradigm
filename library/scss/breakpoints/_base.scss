@@ -966,15 +966,17 @@ FOOTER STYLES
 	override these styles for the desktop
 	view.
 	*/
-	.footer-links {
+	.footer-nav {
+        background-color: $para-red;
 
 		ul {
+            list-style-type: 0;
 
 			li {}
 
 		}
 
-	} /* end .footer-links */
+	} /* end .footer-nav */
 
 
     .copyright {

@@ -1137,7 +1137,12 @@ FOOTER STYLES
 	override these styles for the desktop
 	view.
 	*/
-/* end .footer-links */
+.footer-nav {
+  background-color: #D2232A; }
+  .footer-nav ul {
+    list-style-type: 0; }
+
+/* end .footer-nav */
 .copyright {
   font-size: 0.75em; }
 
