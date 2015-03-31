@@ -1139,7 +1139,8 @@ FOOTER STYLES
 	*/
 .footer-nav {
   background-color: #D2232A;
-  list-style-type: none; }
+  list-style-type: none;
+  margin-left: 0; }
   .footer-nav li a {
     color: #fff; }
 
