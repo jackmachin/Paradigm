@@ -709,13 +709,7 @@ easily write one group of styles for
 the navs on the site so our css is cleaner
 and more scalable.
 */
-nav {
-  background-color: #D2232A;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28); }
-
 .nav {
-  border-bottom: 0;
-  margin: 0;
   /* end .menu li */
   /* highlight current page */
   /* end current highlighters */ }
