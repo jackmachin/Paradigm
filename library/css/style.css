@@ -788,8 +788,6 @@ POSTS & CONTENT STYLES
 			and floating images at the next breakpoint,
 			but it's up to you. Feel free to change it up.
 			*/ }
-  .entry-content p {
-    margin: 0 0 1.5em; }
   .entry-content ul, .entry-content ol {
     margin-left: 2em; }
   .entry-content ul {
@@ -884,71 +882,6 @@ POST FORMATS
   border-left: 2px solid #ccc; }
 
 /* Don't forget cite in case a user makes use of it. */
-/* Gallery */
-.gallery {
-  margin: auto -6px;
-  padding: 6px 0;
-  line-height: 1;
-  overflow-x: hidden; }
-
-.ie7 .gallery, .ie8 .gallery {
-  margin: auto; }
-
-.gallery .gallery-item {
-  float: left;
-  margin: 0;
-  text-align: center;
-  padding: 6px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-
-.ie7 .gallery .gallery-item, .ie8 .gallery .gallery-item {
-  padding: 6px 0; }
-
-.gallery .gallery-caption, .gallery .gallery-icon {
-  margin: 0; }
-
-.gallery .gallery-caption {
-  font-size: 13px;
-  margin: 4px 0; }
-
-.gallery-columns-1 .gallery-item {
-  width: 100%; }
-
-.gallery-columns-2 .gallery-item {
-  width: 50%; }
-
-.gallery-columns-3 .gallery-item {
-  width: 33.333%; }
-
-.ie8 .gallery-columns-3 .gallery-item, .ie7 .gallery-columns-3 .gallery-item {
-  width: 33%; }
-
-.gallery-columns-4 .gallery-item {
-  width: 25%; }
-
-.gallery-columns-5 .gallery-item {
-  width: 20%; }
-
-.gallery-columns-6 .gallery-item {
-  width: 16.665%; }
-
-.gallery-columns-7 .gallery-item {
-  width: 14.285%; }
-
-.gallery-columns-8 .gallery-item {
-  width: 12.5%; }
-
-.gallery-columns-9 .gallery-item {
-  width: 11.111%; }
-
-.gallery img {
-  max-width: 100%;
-  height: auto;
-  border: none;
-  padding: 0; }
-
 /******************************************************************
 PAGE NAVI STYLES
 ******************************************************************/
