@@ -1150,6 +1150,9 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
+.footer {
+  padding: 1.5em 1.5em 0; }
+
 /*
 	if you checked out the link above:
 	http://www.alistapart.com/articles/organizing-mobile/
@@ -1161,9 +1164,7 @@ FOOTER STYLES
 	*/
 .footer-nav {
   background-color: #D2232A;
-  list-style-type: none;
-  padding-left: 1.5em;
-  padding-right: 1.5em; }
+  list-style-type: none; }
   .footer-nav li {
     display: inline-block;
     margin-top: 0; }
