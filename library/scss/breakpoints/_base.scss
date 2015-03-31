@@ -968,13 +968,13 @@ FOOTER STYLES
 	*/
 	.footer-nav {
         background-color: $para-red;
-
-		ul {
-            list-style-type: 0;
+        list-style-type: 0;
 
 			li {
 
-                a {}
+                a {
+                    color: $white;
+                }
 
             }
 
