@@ -7,14 +7,11 @@ Stylesheet: Layout Stylesheet
 .wrapper {
 	@include clearfix;
 	max-width: $break-wide;
-	min-width: ($break-mobile - 20px);
-	margin: 0 auto;
 }
 
 .container {
 	@include clearfix;
 	width: 100%;
-	margin: 10px 0;
 }
 
 #container {}
