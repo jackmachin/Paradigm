@@ -1162,13 +1162,13 @@ FOOTER STYLES
 .footer-nav {
   background-color: #D2232A;
   list-style-type: none;
-  padding-left: 0; }
+  padding-left: 1.5em;
+  padding-right: 1.5em; }
   .footer-nav li {
     display: inline-block;
     margin-top: 0; }
     .footer-nav li a {
-      color: #fff;
-      padding: 0.75em; }
+      color: #fff; }
 
 /* end .footer-nav */
 .copyright {

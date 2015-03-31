@@ -969,7 +969,8 @@ FOOTER STYLES
 	.footer-nav {
         background-color: $para-red;
         list-style-type: none;
-        padding-left: 0;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
 
         li {
             display: inline-block;
@@ -978,7 +979,6 @@ FOOTER STYLES
 
             a {
                 color: $white;
-                padding:.75em;
             }
 
         }
