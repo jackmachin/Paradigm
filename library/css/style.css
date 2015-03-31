@@ -1138,9 +1138,10 @@ FOOTER STYLES
 	view.
 	*/
 .footer-nav {
-  background-color: #D2232A; }
-  .footer-nav ul {
-    list-style-type: 0; }
+  background-color: #D2232A;
+  list-style-type: 0; }
+  .footer-nav li a {
+    color: #fff; }
 
 /* end .footer-nav */
 .copyright {
