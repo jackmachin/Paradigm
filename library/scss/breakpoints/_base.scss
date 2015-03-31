@@ -240,6 +240,7 @@ POSTS & CONTENT STYLES
 		.hentry {
 
 			header {
+                padding: 1.5em 1.5em 0;
 
 			}
 
@@ -297,7 +298,7 @@ POSTS & CONTENT STYLES
 			ul, ol, table, dl {}
 
 			ul, ol {
-        margin-left: 2em;
+                margin-left: 2em;
 
 				li {}
 
@@ -335,7 +336,7 @@ POSTS & CONTENT STYLES
 
 			tr {
 				border-bottom: 1px solid $gray;
-        background-color: $white;
+                background-color: $white;
 
 				&:nth-child(even) {
 					background-color: $light-gray;
@@ -389,9 +390,9 @@ POSTS & CONTENT STYLES
 				height: auto;
 			}
       
-      img.sp-logo {
-        margin: 0 .125em 1.5em;
-      }
+            img.sp-logo {
+                margin: 0 .125em 1.5em;
+            }
 
 			/*
 			image alignment on a screen this size may be
@@ -577,26 +578,6 @@ POST FORMATS
 	height: auto;
 	border: none;
 	padding: 0;
-}
-
-/******************************************************************
-PAGE NAVI STYLES
-******************************************************************/
-.tile {
-  padding: 0 1.25em;
-  min-height: 225px;
-  box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
-  background: url('http://545.346.myftpupload.com/wp-content/uploads/2014/10/member.png') no-repeat bottom right;
-  background-size: 75px;
-  
-  .image-container {
-    min-height: 209px;
-  }
-}
-
-.tile-title {
-  font-size: 1.25em;
-  text-align: center;
 }
 
 /******************************************************************
@@ -973,7 +954,7 @@ FOOTER STYLES
 
 .footer {
 	clear: both;
-  background-color: $meta-gray;
+    background-color: $meta-gray;
 	color: $white;
 }
 
@@ -997,6 +978,6 @@ FOOTER STYLES
 	} /* end .footer-links */
 
 
-	.copyright {
-    font-size: .75em;
-  }
+    .copyright {
+        font-size: .75em;
+    }
